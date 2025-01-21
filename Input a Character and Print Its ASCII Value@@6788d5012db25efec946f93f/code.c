@@ -4,5 +4,5 @@ int main(){
     char character;
     printf("");
     scanf("%s",&character);
-    printf("ASCII value: ")
+    printf("ASCII value: %i", character)
 }
