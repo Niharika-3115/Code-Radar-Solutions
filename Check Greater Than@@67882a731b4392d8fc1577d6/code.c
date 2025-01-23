@@ -4,13 +4,13 @@ int main(){
     int x,y;
     scanf("%d" "%d", &x, &y);
     if (x>y) {
-        print("%d is greater than %d\n",x,y);
+        printf("%d is greater than %d\n",x,y);
     }
     elif (x<y){
-        print("%d is less than %d\n",x,y);
+        printf("%d is less than %d\n",x,y);
     }
     else {
-        print("%d is equal to %d",x,y);
+        printf("%d is equal to %d",x,y);
     }
     return 0;
 }
