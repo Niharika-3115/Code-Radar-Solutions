@@ -10,7 +10,7 @@ int main(){
         print("%d is less than %d",x,y);
     }
     else {
-        print("%d is equal to %d",x,y)
+        print("%d is equal to %d",x,y);
     }
     return 0;
 }
