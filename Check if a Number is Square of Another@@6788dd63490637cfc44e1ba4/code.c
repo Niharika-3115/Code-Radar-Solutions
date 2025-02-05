@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(){
-    int num,square;
+    int num,squareroot;
     scanf("%d",&num);
-    if (square=num*num){
+    squareroot=sqrt(num);
+    if (squareroot*squareroot==num){
         print(Yes);
     }
     else{
