@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int x,y;
-    scanf("%d %d",&x,&y);
-    if (x=y*y){
-        printf("Yes");
+    int num,square;
+    scanf("%d",&num);
+    if (square=num*num){
+        print(Yes);
     }
     else{
         printf("No");
