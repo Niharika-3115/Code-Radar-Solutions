@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&num);
     squareroot=sqrt(num);
     if (squareroot*squareroot==num){
-        print(Yes);
+        print("Yes");
     }
     else{
         printf("No");
