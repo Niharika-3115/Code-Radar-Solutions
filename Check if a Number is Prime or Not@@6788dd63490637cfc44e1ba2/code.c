@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &n);
 
     if (n <= 1) {
-        printf("%d is not a prime number.\n", n);
+        printf("Not Prime", n);
         return 0;
     }
 
@@ -20,9 +20,9 @@ int main() {
     }
 
     if (isPrime)
-        printf("%d is a prime number.\n", n);
+        printf("Prime\n", n);
     else
-        printf("%d is not a prime number.\n", n);
+        printf("Prime\n", n);
 
     return 0;
 }
