@@ -22,7 +22,7 @@ int main() {
     if (isPrime)
         printf("Prime\n", n);
     else
-        printf("Prime\n", n);
+        printf("Not Prime\n", n);
 
     return 0;
 }
