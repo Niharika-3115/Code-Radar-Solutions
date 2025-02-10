@@ -9,7 +9,7 @@ int main(){
     }
 
     for(i=2;i<num;i++){
-        if (n%1==0){
+        if (num%1==0){
             isprime=0;
             break;
         }
