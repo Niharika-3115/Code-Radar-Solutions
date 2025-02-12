@@ -15,14 +15,14 @@ int main(){
     }
     else if(operation=='/'){
         if (num2==0){
-            printf("Error");
+            printf("error");
         }
         else{
             printf("%d",num1/num2);
         }
     }
     else{
-        printf("Error");
+        printf("error");
     }
     return 0;
 }
