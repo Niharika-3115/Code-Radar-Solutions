@@ -17,7 +17,7 @@ int main(){
         printf("%d",prod);
     }
     else if(operation=='/'){
-        if(num2==0){
+        if (num2==0){
             printf("error");
         }
         else{
