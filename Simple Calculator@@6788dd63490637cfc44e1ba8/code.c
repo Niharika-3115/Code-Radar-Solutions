@@ -3,7 +3,7 @@ int main(){
     int num1,num2;
     char operation;
     scanf("%d %d",&num1,&num2);
-    scanf("%c",&operation);
+    scanf(" %c",&operation);
     if (operation=='+'){
         printf("%d",num1+num2);
     }
