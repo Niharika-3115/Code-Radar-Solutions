@@ -18,7 +18,7 @@ int main(){
     }
     else if(operation=='/'){
         if(num2==0){
-            printf("Error");
+            printf("error");
         }
         else{
             printf("%d",div);
