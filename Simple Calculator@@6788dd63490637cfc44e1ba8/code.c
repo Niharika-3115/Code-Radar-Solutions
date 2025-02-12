@@ -1,28 +1,24 @@
 #include <stdio.h>
 int main(){
-    int num1,num2,sum,diff,prod,div;
+    int num1,num2;
     char operation;
     scanf("%d %d",&num1,&num2);
     scanf("%c",&operation);
-    sum=num1+num2;
-    diff=num1-num2;
-    prod=num1*num2;
-    div=num1/num2;
     if (operation=='+'){
-        printf("%d",sum);
+        printf("%d",num1+num2);
     }
     else if(operation=='-'){
-        printf("%d",diff);
+        printf("%d",num1-num2);
     }
     else if(operation=='*'){
-        printf("%d",prod);
+        printf("%d",num1*num2);
     }
     else if(operation=='/'){
         if (num2==0){
             printf("Error");
         }
         else{
-            printf("%d",div);
+            printf("%d",num1/num2);
         }
     }
     else{
