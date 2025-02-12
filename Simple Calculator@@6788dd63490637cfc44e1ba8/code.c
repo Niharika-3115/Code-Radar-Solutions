@@ -2,7 +2,8 @@
 int main(){
     int num1,num2,sum,diff,prod,div;
     char operation;
-    scanf("%d %d %c",&num1,&num2,&operation);
+    scanf("%d %d",&num1,&num2);
+    scanf("%c",&operation);
     sum=num1+num2;
     diff=num1-num2;
     prod=num1*num2;
