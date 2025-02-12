@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
     int num1,num2,sum,diff,prod,div;
     char operation;
@@ -18,14 +18,14 @@ int main(){
     }
     else if(operation=='/'){
         if (num2==0){
-            printf("error");
+            printf("Error");
         }
         else{
             printf("%d",div);
         }
     }
     else{
-        printf("error");
+        printf("Error");
     }
     return 0;
 }
